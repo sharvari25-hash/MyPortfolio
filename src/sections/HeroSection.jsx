@@ -68,7 +68,7 @@ function HeroSection() {
 
               <a
                 href={personalInfo.resume}
-                download="Sharvari-Karnase-Resume.html"
+                download="Sharvari-Karnase-Resume.pdf"
                 className="outline-button inline-flex items-center gap-2 rounded-full px-6 py-3.5 text-sm font-semibold text-white"
               >
                 <HiMiniArrowDownTray className="text-base" />
@@ -139,7 +139,7 @@ function HeroSection() {
                 <div className="relative h-full overflow-hidden rounded-[28px] border border-white/10 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800">
                   <img
                     src={personalInfo.profileImage}
-                    alt="Stylized portrait illustration of Sharvari Karnase"
+                    alt="Portrait of Sharvari Karnase"
                     className="h-full w-full object-cover"
                   />
                 </div>

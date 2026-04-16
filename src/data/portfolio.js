@@ -1,4 +1,5 @@
-import profileImage from '../assets/profile-portrait.svg'
+import profileImage from '../assets/Profile-Pic.jpg'
+import resumeFile from '../assets/Sharvari Resume.pdf'
 import quickEatsImage from '../assets/quickeats-banner.svg'
 import veloraImage from '../assets/velora-banner.svg'
 import wanderWiseImage from '../assets/wanderwise-banner.svg'
@@ -11,7 +12,7 @@ export const personalInfo = {
   phone: '+91-9028985983',
   linkedin: 'https://www.linkedin.com/in/sharvari-karnase-8a415734a/',
   github: 'https://github.com/sharvari25-hash',
-  resume: '/sharvari-karnase-resume.html',
+  resume: resumeFile,
   profileImage,
   summary:
     'Passionate Full Stack Java Developer skilled in building scalable and secure web applications using Java, Spring Boot, and React.js. Experienced in designing REST APIs, implementing authentication systems, and delivering clean, efficient code.',
