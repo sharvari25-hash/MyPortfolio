@@ -8,7 +8,7 @@ This portfolio is designed to showcase professional skills, featured projects, i
 
 Add your deployed Vercel link here after deployment:
 
-[Live Portfolio](https://your-vercel-app.vercel.app)
+[Live Portfolio](https://my-portfolio-eight-beige-ir0momor7l.vercel.app)
 
 ## About The Project
 
