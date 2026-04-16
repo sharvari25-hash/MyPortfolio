@@ -1,0 +1,53 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="94" y1="84" x2="1108" y2="632" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1838"/>
+      <stop offset="1" stop-color="#07101F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="122" x2="1024" y2="602" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="blur" x="18" y="-18" width="1168" height="770" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="56"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" rx="42" fill="#050816"/>
+  <g opacity="0.72" filter="url(#blur)">
+    <circle cx="230" cy="166" r="126" fill="#38BDF8"/>
+    <circle cx="922" cy="166" r="146" fill="#6366F1"/>
+    <circle cx="634" cy="552" r="176" fill="#8B5CF6"/>
+  </g>
+
+  <rect x="94" y="84" width="1012" height="552" rx="40" fill="url(#panel)" stroke="url(#accent)" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="132" y="180" fill="white" font-family="Sora, Arial, sans-serif" font-size="50" font-weight="700">WanderWise</text>
+  <text x="132" y="222" fill="#E2E8F0" font-family="Outfit, Arial, sans-serif" font-size="24">Trip planning with structured dashboards and discovery flows.</text>
+
+  <rect x="132" y="282" width="420" height="280" rx="32" fill="#0B1224" stroke="white" stroke-opacity="0.08"/>
+  <path d="M188 488C254 406 316 346 410 320C446 310 484 312 520 332" stroke="url(#accent)" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="194" cy="486" r="22" fill="#38BDF8"/>
+  <circle cx="530" cy="336" r="18" fill="#8B5CF6"/>
+  <circle cx="360" cy="382" r="14" fill="#F8FAFC"/>
+  <circle cx="442" cy="432" r="14" fill="#CBD5E1"/>
+  <path d="M280 344L338 360L302 420L280 344Z" fill="#F8FAFC" fill-opacity="0.8"/>
+
+  <rect x="598" y="248" width="468" height="332" rx="30" fill="#101828" stroke="white" stroke-opacity="0.08"/>
+  <text x="634" y="294" fill="#F8FAFC" font-family="Sora, Arial, sans-serif" font-size="28" font-weight="600">Admin &amp; User Dashboards</text>
+  <rect x="634" y="324" width="182" height="220" rx="24" fill="#111827"/>
+  <rect x="658" y="350" width="98" height="10" rx="5" fill="#F8FAFC"/>
+  <rect x="658" y="374" width="128" height="10" rx="5" fill="#94A3B8"/>
+  <rect x="658" y="414" width="118" height="42" rx="16" fill="url(#accent)"/>
+  <rect x="658" y="474" width="84" height="12" rx="6" fill="#CBD5E1"/>
+
+  <rect x="836" y="324" width="194" height="100" rx="24" fill="#111827"/>
+  <rect x="862" y="348" width="114" height="12" rx="6" fill="#F8FAFC"/>
+  <rect x="862" y="372" width="132" height="10" rx="5" fill="#94A3B8"/>
+  <circle cx="996" cy="372" r="16" fill="#38BDF8"/>
+
+  <rect x="836" y="444" width="194" height="100" rx="24" fill="#111827"/>
+  <rect x="862" y="468" width="80" height="12" rx="6" fill="#F8FAFC"/>
+  <rect x="862" y="492" width="104" height="10" rx="5" fill="#94A3B8"/>
+  <path d="M992 478L1014 496L1028 464" stroke="#8B5CF6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sharvari Karnase Resume</title>
+    <style>
+      :root {
+        color-scheme: light;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #e2e8f0;
+        color: #0f172a;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .page {
+        width: min(900px, calc(100% - 32px));
+        margin: 32px auto;
+        background: white;
+        border-radius: 24px;
+        padding: 40px;
+        box-shadow: 0 24px 60px rgba(15, 23, 42, 0.16);
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #cbd5e1;
+        padding-bottom: 24px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero p {
+        color: #475569;
+      }
+
+      .contact {
+        display: grid;
+        gap: 8px;
+        text-align: right;
+      }
+
+      .section {
+        margin-top: 28px;
+      }
+
+      .section h2 {
+        font-size: 16px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #4338ca;
+        margin-bottom: 12px;
+      }
+
+      .summary {
+        line-height: 1.7;
+        color: #334155;
+      }
+
+      .grid {
+        display: grid;
+        gap: 16px;
+      }
+
+      .row {
+        display: grid;
+        gap: 8px;
+        padding: 16px 18px;
+        border: 1px solid #e2e8f0;
+        border-radius: 16px;
+        background: #f8fafc;
+      }
+
+      .meta {
+        color: #475569;
+        font-size: 14px;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 18px;
+        color: #334155;
+        line-height: 1.7;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .chip {
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: #e0e7ff;
+        color: #312e81;
+        font-size: 14px;
+      }
+
+      a {
+        color: #4338ca;
+        text-decoration: none;
+      }
+
+      @media print {
+        body {
+          background: white;
+        }
+
+        .page {
+          margin: 0;
+          width: 100%;
+          border-radius: 0;
+          box-shadow: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div>
+          <h1>Sharvari Karnase</h1>
+          <p>Full Stack Java Developer</p>
+          <p>Amravati, Maharashtra, India</p>
+        </div>
+        <div class="contact">
+          <a href="mailto:sharvarikarnase4@gmail.com">sharvarikarnase4@gmail.com</a>
+          <a href="tel:+919028985983">+91-9028985983</a>
+          <a href="https://www.linkedin.com/in/sharvari-karnase-8a415734a/">LinkedIn</a>
+          <a href="https://github.com/sharvari25-hash">GitHub</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Professional Summary</h2>
+        <p class="summary">
+          Passionate Full Stack Java Developer skilled in building scalable and secure web
+          applications using Java, Spring Boot, and React.js. Experienced in designing REST APIs,
+          implementing authentication systems, and delivering clean, efficient code.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Experience</h2>
+        <div class="row">
+          <h3>Aivariant - Full Stack Java Developer Intern</h3>
+          <p class="meta">Mar 2025 - Dec 2025</p>
+          <ul>
+            <li>Built full-stack applications using React.js and Spring Boot.</li>
+            <li>Developed RESTful APIs with MySQL and Hibernate.</li>
+            <li>Worked on debugging, testing, and deployment.</li>
+            <li>Used GitHub for version control and collaboration.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Projects</h2>
+        <div class="grid">
+          <div class="row">
+            <h3>Velora</h3>
+            <p class="meta">React.js, Spring Boot, MySQL, JWT, Spring Security</p>
+            <p>Full-stack e-commerce platform with browsing, cart management, and secure ordering.</p>
+          </div>
+          <div class="row">
+            <h3>QuickEats</h3>
+            <p class="meta">React.js, Tailwind CSS, Spring Boot, MySQL</p>
+            <p>Responsive food delivery application with seamless ordering experience.</p>
+          </div>
+          <div class="row">
+            <h3>WanderWise</h3>
+            <p class="meta">React.js, Spring Boot, MySQL, Tailwind CSS</p>
+            <p>Travel booking platform with itinerary browsing and admin and user dashboards.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+          <span class="chip">Java</span>
+          <span class="chip">Spring Boot</span>
+          <span class="chip">React.js</span>
+          <span class="chip">Tailwind CSS</span>
+          <span class="chip">REST APIs</span>
+          <span class="chip">MySQL</span>
+          <span class="chip">GitHub</span>
+          <span class="chip">Postman</span>
+          <span class="chip">IntelliJ IDEA</span>
+          <span class="chip">VS Code</span>
+          <span class="chip">OOPs</span>
+          <span class="chip">DBMS</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Education</h2>
+        <div class="grid">
+          <div class="row">
+            <h3>BCA</h3>
+            <p class="meta">2023 - 2025</p>
+            <p>CGPA: 7.73</p>
+          </div>
+          <div class="row">
+            <h3>12th Science</h3>
+            <p class="meta">Higher Secondary</p>
+            <p>80.33%</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Certifications</h2>
+        <div class="grid">
+          <div class="row">
+            <h3>Full Stack Java Developer - ExcelR</h3>
+            <p class="meta">2025</p>
+          </div>
+          <div class="row">
+            <h3>Web Development - IMS Mahavidyalaya</h3>
+            <p class="meta">Credential</p>
+          </div>
+          <div class="row">
+            <h3>Techno Event 2024</h3>
+            <p class="meta">Participation Certificate</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
